@@ -40,8 +40,13 @@ ActiveRecord::Schema.define(version: 3) do
     t.float "price"
     t.boolean "family_friendly"
     t.text "description"
+<<<<<<< HEAD
     t.datetime "opening_date"
     t.datetime "closing_date"
+=======
+    t.datetime "opening_time"
+    t.datetime "closing_time"
+>>>>>>> 9ba7ab7f8d0ae411669c0f0c1429f0c3ead54370
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
